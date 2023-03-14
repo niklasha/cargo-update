@@ -93,3 +93,6 @@ name = "cargo-install-update-config"
 path = "src/main-config.rs"
 test = false
 doc = false
+
+[patch.crates-io]
+openssl-sys = { git = 'https://github.com/niklasha/rust-openssl.git', branch = 'libressl37' }
