@@ -96,3 +96,4 @@ doc = false
 
 [patch.crates-io]
 openssl-sys = { git = 'https://github.com/niklasha/rust-openssl.git', branch = 'libressl_3_7' }
+libgit2-sys = { git = "", commit = '68b12efd6463c57deff56f4f7488a042461049d3' }
